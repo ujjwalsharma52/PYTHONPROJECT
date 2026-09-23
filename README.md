@@ -1,12 +1,10 @@
-
-# PYTHONPROJECT
 # 🐍 Python Projects Collection
 
-Welcome to my **Python Projects Collection**! 🚀
+Welcome to my **Python Projects Collection!** 🚀
 
 This repository contains multiple Python projects that I have created while learning and practicing Python programming.
 
-The main purpose of this repository is to improve my **Python programming, logic building, problem-solving, and project development skills**.
+The main purpose of this repository is to improve my **Python programming, logic building, problem-solving, Object-Oriented Programming, and project development skills**.
 
 ---
 
@@ -58,6 +56,57 @@ A simple game where the computer randomly generates a number between **1 and 100
 * `if-elif-else`
 * User input
 * Comparison operators
+
+---
+
+### 3. 🏍️ Bike Rental System
+
+A simple command-line based **Bike Rental System** developed using Python Object-Oriented Programming.
+
+The system allows users to check the available bike stock and rent bikes by entering the required quantity.
+
+**Features:**
+
+* Display available bikes
+* Rent multiple bikes
+* Calculate rental price
+* Automatically update available stock
+* Check invalid quantity
+* Prevent renting more bikes than available
+* Exit option
+
+**Rental Price:**
+
+```text
+₹100 per bike
+```
+
+**Concepts Used:**
+
+* Classes and Objects
+* `__init__()` constructor
+* Instance variables
+* Methods
+* `self`
+* `if-elif-else`
+* `while` loop
+* User input
+* Arithmetic operators
+* Object-Oriented Programming
+
+**Example:**
+
+```text
+1 Display Stocks
+2 Rent a Bike
+3 Exit
+
+Enter your choice: 2
+Enter The QTY: 5
+
+Total Prices: 500
+Total Bikes: 95
+```
 
 ---
 
@@ -113,6 +162,9 @@ Exception Handling
 Random Module
 File Handling
 Object-Oriented Programming
+Classes and Objects
+Constructors
+Methods
 Modules
 Problem Solving
 ```
@@ -129,6 +181,9 @@ Python-Projects/
 │
 ├── Number-Guessing-Game/
 │   └── number_guessing.py
+│
+├── Bike-Rental-System/
+│   └── bike_rental.py
 │
 ├── Calculator/
 │   └── calculator.py
@@ -149,13 +204,13 @@ Python-Projects/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ujjwalsharma52/PYTHONPROJECT.git
 ```
 
 ### 2. Open the Project
 
 ```bash
-cd Python-Projects
+cd PYTHONPROJECT
 ```
 
 ### 3. Run a Python Project
@@ -166,10 +221,16 @@ For example:
 python rock_paper_scissors.py
 ```
 
-or
+or:
 
 ```bash
 python number_guessing.py
+```
+
+or:
+
+```bash
+python bike_rental.py
 ```
 
 ---
@@ -200,6 +261,22 @@ Computer Number: 72
 Your guess number is too low
 ```
 
+### Bike Rental System
+
+```text
+1 Display Stocks
+2 Rent a Bike
+3 Exit
+
+Enter your choice: 2
+Enter The QTY: 5
+
+Total Prices: 500
+Total Bikes: 95
+```
+
+The Bike Rental System uses a Python class to manage bike stock and calculate the rental price.
+
 ---
 
 ## 🎯 Learning Goals
@@ -210,6 +287,7 @@ The goals of this repository are:
 * Develop logical thinking
 * Practice problem solving
 * Build command-line applications
+* Learn Object-Oriented Programming
 * Learn how to structure projects
 * Practice Git and GitHub
 * Build a strong programming portfolio
@@ -219,7 +297,7 @@ The goals of this repository are:
 
 ## 📈 Progress
 
-| Level                  | Status         |
+| **Level / Topic**      | **Status**     |
 | ---------------------- | -------------- |
 | Python Basics          | ✅ Completed    |
 | Conditional Statements | ✅ Completed    |
@@ -229,6 +307,8 @@ The goals of this repository are:
 | Dictionaries           | 🔄 Practicing  |
 | File Handling          | 🔄 Learning    |
 | OOP                    | 🔄 Learning    |
+| Classes & Objects      | 🔄 Learning    |
+| Constructors           | 🔄 Learning    |
 | Advanced Python        | ⏳ Upcoming     |
 | Python Projects        | 🚀 In Progress |
 
